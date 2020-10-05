@@ -1,0 +1,267 @@
+*{
+    margin: 0; 
+    padding: 0;
+} 
+a{
+    text-decoration: none;
+    color: #696969;
+}
+a:visited{
+    text-decoration: none;
+    color: #696969;
+}
+
+/* for travel page */
+h1{
+   position: relative; 
+   z-index: 1;
+   top: 100px;
+   left: 200px;
+}
+
+/* Header Styling */
+
+header{
+    position: fixed; 
+    display: flex; 
+    justify-content: space-around;
+    background-color: #f2f2f2;
+    padding: 30px 0; 
+    z-index: 1;
+    width: 100%; 
+}
+nav{
+    width: 25%;
+}
+.header-nav-items{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+} 
+
+.header-nav-item{
+    color: #696969; 
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif; 
+}
+.icons-container{
+    width: 10%;
+    color: #696969;
+}
+.icons-container ul{
+    display: flex; 
+    list-style-type: none;
+    justify-content: space-around; 
+}
+
+
+/* Big Image Section Styling */
+.landing-img{
+    width: 100%; 
+    height: 550px;
+}
+.landing-container{
+    position: relative;
+    margin-bottom: 50px;
+} 
+.content{
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%,-50%); 
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.content span{
+    display: block;
+    text-align: center;
+}
+
+.content span:nth-child(1),.content span:nth-child(3){
+    font-size: 18px;
+}
+.content span:nth-child(2){
+    font-size: 70px;
+    font-weight: bold;
+}
+
+/* Tiles Section Styling */
+.categories-container{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+.description{
+    font-size: 15px; 
+    color: #696969; 
+    text-align: center;
+    line-height: 1.2rem;
+    width: 40%;
+}
+.category-contanier{
+    position: relative;
+    margin-left: 20px; 
+}
+.category-image{
+    width: 313px; 
+    height: 260px;
+}
+
+.category-contanier button {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+
+.categories{
+    display: flex;
+    margin-top: 40px;
+} 
+
+.category-button{
+    width: 156px; 
+    height: 56px;
+    background-color: #fff;
+    font-size: 24px; 
+    color: #2573DA;
+    border: none;
+    outline: none;
+}
+.category-button:hover{
+    background-color: #2573DA;
+    color: #fff;
+    transition: 0.5s;
+}
+
+/* Brand Section Styling */
+
+.brand-container{
+    background-color: #f2f2f2;
+    height: 150px;
+    margin: 70px 0;
+    display: flex; 
+    justify-content: center;  
+    align-items: center;
+} 
+.brands{
+    width: 50%; 
+    display: flex; 
+    justify-content: space-between;
+} 
+
+.brands div:nth-child(1){
+    width: 200px;
+    border-right: 1px solid black;
+    font-size: 24px;
+}
+
+
+.brands div:nth-child(2),
+.brands div:nth-child(3),
+.brands div:nth-child(4),
+.brands div:nth-child(5){
+    display: flex; 
+    flex-direction: column;
+}
+
+/* so sorry for the next two */
+.brands div:nth-child(2) span:nth-child(1){
+    font-size: 25px;
+    font-weight: bold;
+}
+.brands div:nth-child(2) span:nth-child(2){ 
+    font-size: 20px;
+    align-self: flex-end;
+}
+.brands div:nth-child(3){
+    align-items: center;
+    font-size: 21px;
+}
+
+.brands div:nth-child(4){
+    align-items: center;
+    font-weight: bold;
+    font-size: 21px;
+
+}
+.brands div:nth-child(5){
+    font-size: 21px; 
+    font-weight: bold;
+}
+.brands div:nth-child(5) i{
+    align-self: flex-end;
+}
+
+
+/* Blog Section Styling */
+.blog-container{
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+}
+.blog{
+    margin: 16px;
+    border: 1px solid rgba(100,100,100,0.1);
+    width: 940px; 
+}
+.blog-image{
+    width: 100%;
+    height: 400px;
+}
+.admin{
+    display: flex;
+    
+    margin-top:45px; 
+    margin-left: 45px;
+}
+.date-time{
+    margin-left: 10px;
+    font-size:14px;
+}
+.blog-description{
+    margin-top: 30px; 
+    margin: 0 45px;
+    font-size: 1.2rem;
+    line-height: 2.2;
+    padding: 5px 0 25px;
+    border-bottom: 1px solid rgba(100,100,100,0.5);
+}
+.blog-description p{
+    line-height: 1;
+}
+.blog-footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 45px 40px;
+}
+.blog-footer span i{
+    color: red;
+}
+.views-comments span:nth-child(2){
+    padding-left: 15px;
+}
+
+
+
+/* Footer Section Styling */
+footer{
+    display: flex; 
+    background-color: #2573da;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 50px;
+}
+.footer-social-items{
+    width: 40%;
+    display: flex; 
+    justify-content: space-between;
+    list-style-type: none;
+    color: #fff;
+    font-size: 15px;
+}
+.footer-social-item{
+    padding: 10px;
+}
+
