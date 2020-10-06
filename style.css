@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.iconStyle{
+    color: #696969;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+
+
+}
+nav{
+    width: 30%;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    color: gray;
+
+}
+.logoContainer
+{
+    width: 10%; 
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f2f2f2;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  .cover-pic{
+      width: 100%;
+      height: 470px;
+  }
+  .coverComtainer{
+      position: relative;
+  }
+  .text{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      text-align: center;
+      color: #ffffff;
+      font-family: 'Open Sans', sans-serif;
+      transform: translate(-50%, -50%);
+
+  }
+  span{
+    display: block;
+  }
+  span:first-child, span:last-child{
+    font-size: 18px;
+
+  }
+  span:nth-child(2){
+      font-size: 70px;
+  }
+.gridContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image-style{
+    width: 314px;
+    height: 260px;
+}
+.category-container{
+    position: relative;
+    margin: 0 10px;
+    
+}
+.content{
+    margin: 40px 0px;
+    width: 600px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif ;
+    color: #696969;
+
+}
+.button-style{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 156px;
+    height: 56px;
+    background-color: white;
+    color: #2593DA;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    font-family: 'EB Garamond', serif;
+
+}
+.button-style:hover{
+    color: white;
+    cursor: pointer;
+    background-color:#2593DA ;
+}
+.grid-images{
+    display: flex;
+
+}
