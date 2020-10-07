@@ -12,7 +12,7 @@ a:visited{
 }
 
 /* for travel page */
-h1{
+.travel-page-title{
    position: relative; 
    z-index: 1;
    top: 100px;
@@ -107,13 +107,6 @@ nav{
     height: 260px;
 }
 
-.category-contanier button {
-    position: absolute; 
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%,-50%);
-    cursor: pointer;
-}
 
 .categories{
     display: flex;
@@ -121,6 +114,12 @@ nav{
 } 
 
 .category-button{
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+
     width: 156px; 
     height: 56px;
     background-color: #fff;
